@@ -3,7 +3,7 @@
     font-size: 25px;
     --bgColor: #474A2C;
     --altColor: #553D36;
-    --fontColor: #FFF;
+    --fontColor: #FFFFF0;
     --altFontColor:#545775;
 
 }
@@ -11,7 +11,43 @@
 body{
     background-color: var(--bgColor);
     color: var(--fontColor);
+    margin-top: 50px;
 }
+
+header{
+    background-color:#636940;
+    border-top:50px;
+    position:sticky;
+    text-align:center;
+    display:block;
+    display:flexbox;
+}
+
+nav ul{
+    position:sticky;
+    margin:0;
+    padding:0;
+    list-style:none;
+    float:right;
+    display:block;
+    display:inline;
+    font-style:bold;
+    text-align:right;
+
+}
+
+li{
+    position: sticky;
+    flex: auto;
+
+}
+
+li:hover{
+    color:black;
+    text-shadow: 2px 2px grey;
+}
+
+
 
 h1{
     position:sticky;
@@ -26,11 +62,26 @@ h1{
 
 
 
-ul{
-    margin:auto;
-    text-align:right;
-    display:block;
-    display:inline;
-    font-style:bold;
+
+nav li{
+    margin-left:70px;
+    padding-top:25px;
+    padding-right:25px;
+}
+
+
+aside{
+text-align:left;
+position:sticky;
+width:250px;
+height:1000px;
+border-color:transparent;
+border-style:solid;
+border-top: 0;
+border-right:25px;
+border-left:0px;
+border-bottom:0px;
+margin-top:px;
+margin-right:50px;
 
 }
