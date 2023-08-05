@@ -1,0 +1,35 @@
+:root{
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 25px;
+    --bgColor: #474A2C;
+    --altColor: #553D36;
+    --fontColor: #FFF;
+    --altFontColor:#545775;
+
+}
+
+body{
+    background-color: var(--bgColor);
+    color: var(--fontColor);
+}
+
+h1{
+    box-shadow: 7px 7px #636940;
+    font-size:35px;
+    text-align:center;
+    margin:10px;
+    box-shadow: 25px;
+    padding:20px;
+    background-color: #59A96A;
+}
+
+
+
+ul{
+    margin:auto;
+    text-align:right;
+    display:block;
+    display:inline;
+    font-style:bold;
+
+}
